@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins= {"http://localhost:4200,http://techpoint.pro"}, allowedHeaders="*")
+@CrossOrigin(origins= {"http://localhost:4200","http://techpoint.pro"}, allowedHeaders="*")
 //@CrossOrigin(origins = {"http://localhost:7777", "http://someserver:8080"})
 public class UserController {
 	@Autowired
